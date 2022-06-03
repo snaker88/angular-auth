@@ -1,0 +1,5 @@
+<p>profile info</p>
+<div *ngFor="let user of user">
+    <p>{{user.name}} {{user.surname}} {{user.date}}</p>
+</div>
+<button (click)="onLogout()">Log Out</button>
